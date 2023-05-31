@@ -1,0 +1,157 @@
+#main {
+  border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+#sign-in {
+  width: 100%;
+  height: 30%;
+  background-color: #05192a;
+  /* border: 1px solid white; */
+}
+#text {
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 136px;
+  top: -14px;
+  background: black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#text1 {
+  color: red;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+  /* border: 1px solid red; */
+  background-color:#100101;
+}
+.login-pass{
+  width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.input-field {
+  width: 69%;
+  height: 45%;
+  margin: 10px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: ivory;
+  font-size: 20px;
+  border-radius: 7px;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: ivory;
+  font-size: 20px;
+  border-radius: 7px;
+}
+input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: ivory;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.login-button{
+    width: 69%;
+    height: 13%;
+    margin: 10px;
+}
+.button {
+  background-color: aqua;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 7px;
+}
+#form1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    background-color: #100101;
+}
+#upper-div
+{
+  width: 100%;
+  height: 10%;
+  background-color: #100101;
+  display: flex;
+  justify-content: center
+}
+#login-comp-btn
+{
+    width: 40%;
+    font-size: 25px;
+    color: red;
+    position: relative;
+    top: -18px;
+    background: black;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#sign-up-btn
+{
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 7px;
+  margin: 36px 0px;
+}
